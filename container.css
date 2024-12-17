@@ -1,3 +1,19 @@
+body {
+    background-color: grey;
+}
+
 main {
-    background-color: aqua;
+    container-type: inline-size;
+
+}
+
+.card {
+    background-color: hotpink;
+
+}
+
+@container (800px < width < 1000px) {
+    .card {
+        background-color: rebeccapurple;
+    }
 }
